@@ -1,12 +1,10 @@
-import { Link } from 'expo-router'
-import { View, Text, StyleSheet } from 'react-native'
+import { Link } from "expo-router";
+import { View, Text, StyleSheet } from "react-native";
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>
-        V S B  G O A L S
-      </Text>
+      <Text style={styles.title}>V S B G O A L S</Text>
       <Link style={styles.link} href="/goals">
         View Your Goals
       </Link>
@@ -14,13 +12,13 @@ const Home = () => {
         Add a New Goal
       </Link>
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: "center",
   },
   title: {
     marginVertical: 40,
@@ -29,10 +27,10 @@ const styles = StyleSheet.create({
   link: {
     marginVertical: 20,
     padding: 16,
-    backgroundColor: '#21cc8d',
-    color: 'white',
+    backgroundColor: "#21cc8d",
+    color: "white",
     borderRadius: 8,
   },
-})
+});
 
-export default Home
+export default Home;
