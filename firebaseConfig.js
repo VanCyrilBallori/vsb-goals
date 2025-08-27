@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-//BRUH 
+//yo
 const firebaseConfig = {
   apiKey: "AIzaSyB2Hegql3W84U4zp8DMlTJDjyJ4Zqqtx20",
   authDomain: "vsb-goals.firebaseapp.com",
@@ -13,3 +13,5 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+//tapos na po sir
